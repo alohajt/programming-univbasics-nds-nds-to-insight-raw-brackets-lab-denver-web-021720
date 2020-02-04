@@ -23,6 +23,7 @@ def directors_totals(nds)
 i = 0
 total = 0
 result = {}
+a = {}
 while i < vm.length do 
   j = 0
   while j < vm[i][:movies].length do 
@@ -33,6 +34,8 @@ while i < vm.length do
   total = 0
   i += 1
 end
-puts result
+a[0] = result
+puts a
+#puts result
   nil
 end
