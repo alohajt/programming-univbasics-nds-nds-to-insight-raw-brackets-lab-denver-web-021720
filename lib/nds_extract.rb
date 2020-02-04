@@ -34,6 +34,6 @@ while i < vm.length do
   total = 0
   i += 1
 end
-  puts result
+  return result
   nil
 end
